@@ -26,3 +26,7 @@ env:
 
 If successful then GHDL will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity error` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
+## Doc Statement:
+Cadet Rust explained clock dividers. Capt Yarbrough helped me troubleshoot various errors, including not fully defining the logic equation for my initial state.
+## Waveform
+![Waveform from thunderbird_fsm_tb](waveform.png)
